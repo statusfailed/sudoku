@@ -116,4 +116,4 @@ printBoard board = do
   putStrLn ""
 
 -- Print the first solution observed
-main = printBoard . head . drop 1 . search $ board
+main = printBoard . head . search $ board
